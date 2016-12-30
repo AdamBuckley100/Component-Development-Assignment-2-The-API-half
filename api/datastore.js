@@ -35,8 +35,8 @@ exports.products = [
 		comments : [
 		{
 			id: 1,
-			subject : 'thryyt',
-			query : 'tyyrtytryrtytytyy'
+			subject : 'Sound',
+			query : 'The sound is great on N64'
 		}
 		],
 		ReleaseYear: 1988,
@@ -61,8 +61,8 @@ exports.products = [
 		comments : [
 		{
 			id: 1,
-			subject : 'rytyrtyrty',
-			query : 'fhgnmnmbnm'
+			subject : 'Weight',
+			query : 'Gamecube is an extremely light weight'
 		}
 		],
 		ReleaseYear: 2004,
@@ -87,8 +87,8 @@ exports.products = [
 		comments : [
 		{
 			id: 1,
-			subject : 'bbb',
-			query : 'bbbbbbbbbbb'
+			subject : 'Old age',
+			query : 'I cannot believe how old this console is'
 		}
 		],
 		ReleaseYear: 1992,
@@ -113,8 +113,8 @@ exports.products = [
 		comments : [
 		{
 			id: 1,
-			subject : 'bbbbfrg',
-			query : 'hhhhhhh'
+			subject : 'Controller',
+			query : 'The controller for sega genesis is hard to use'
 		}
 		],
 		ReleaseYear: 1990,
@@ -139,8 +139,8 @@ exports.products = [
 		comments : [
 		{
 			id: 1,
-			subject : 'sse',
-			query : 'jnn'
+			subject : 'Colour',
+			query : 'The colour of the console is offputting'
 		}
 		],
 		ReleaseYear: 1999,
