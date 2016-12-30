@@ -39,7 +39,7 @@ exports.create = function(req, res) {
 		  id: new_id,
 		  name: req.body.name,
 		  description: req.body.description,
-		  questions : []
+		  comments : []
       }
     datastore.products.push(products)
     return res.json(201, product);
@@ -59,22 +59,22 @@ exports.update = function(req, res) {
       return res.send(404) ;
 };
 
-// add a question
-exports.add_question = function(req, res) {
+// add a comment
+exports.add_comment = function(req, res) {
     var id = parseInt(req.params.id) ;
     var product = findProduct(id);
     if (product) {
        var new_id = 0;
-       if (product.questions.length > 0 ) {
-          new_id = product.questions.length ;
+       if (product.comments.length > 0 ) {
+          new_id = product.comments.length+1 ;
        }
-       var question = {
+       var comment = {
               id : new_id,
               subject: req.body.subject,
               query: req.body.query,
               /*upvotes: 0*/
       }
-       product.questions.push(question)
+       product.comments.push(comment)
        return res.send(200, product) 
     } else {
         return res.send(404)

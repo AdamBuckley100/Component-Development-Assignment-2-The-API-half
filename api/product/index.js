@@ -12,7 +12,7 @@ router.post('/', controller.create);
 
 router.put('/:id', controller.update);
 
-router.post('/:id/questions', controller.add_question); /* this is supposed to allow me to add questions on the product details page */ 
+router.post('/:id/comments', controller.add_comment); /* this is supposed to allow me to add comments on the product details page */ 
 
 router.delete('/:id', controller.destroy);
 
